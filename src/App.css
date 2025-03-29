@@ -6,6 +6,12 @@
   height: 40vmin;
   pointer-events: none;
 }
+body, #root{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
